@@ -24,14 +24,13 @@ int times(int param4){
 }
 
 int main() {
-		int input1, input2, local1, local2, result;
+    int input1, input2, local1, local2, result;
     input1 = getInput();
     input2 = getInput();    
+    //local1 = times(input1);
+    //local2 = times(input2);
     
-    local1 = times(input1);
-    local2 = times(input2);
-    
-    result = add(local1, local2);
+    result = add(input1, input2);
     printf("Result is %d\n", result);
     
     return 0;
